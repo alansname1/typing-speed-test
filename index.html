@@ -808,7 +808,7 @@ by practicing for about 10 to 15 minutes each day.
       setNewPassage();
     }
 
-    typingInput.addEventListener('input', updateStats);
+       typingInput.addEventListener('input', updateStats);
     themeToggle.addEventListener('click', toggleTheme);
     newTextBtn.addEventListener('click', () => {
       setNewPassage();
@@ -824,11 +824,19 @@ by practicing for about 10 to 15 minutes each day.
     durationEl.addEventListener('change', resetForSettingsChange);
     difficultyEl.addEventListener('change', resetForSettingsChange);
 
-loadTheme();
-setNewPassage();
-resetStats();
-renderHistory();
-</script>
+    loadTheme();
+    setNewPassage();
+    resetStats();
+    renderHistory();
+  </script>
+
+  <h2>Website Information</h2>
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+    <li><a href="terms.html">Terms of Use</a></li>
+  </ul>
 
 </body>
 </html>
